@@ -1,0 +1,193 @@
+
+
+body{
+    margin: 0px;
+    text-align: center; /*Centra todo*/
+    font-family: 'Merriweather', serif;
+    color: rgb(0, 0, 0);
+    background-color: #FAF8F1;
+}
+
+h1{
+
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin: 50px auto 0 auto;
+    color: #395144;
+    /*margin: 0 auto 0 auto; Centra el elemento*/
+    line-height: 1;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #8e3b15;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #3C2A21;
+}
+
+.top{
+background-color: #FAEAB1;
+position: relative;
+padding-top: 50px;
+}
+
+.medium{
+background-color: #FAF8F1;
+margin: 100px 0px;
+
+}
+
+
+
+.bottom-cloud{
+   position: absolute;
+   left: 300px;
+   bottom:300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:50px;
+ }
+
+ /* mouse over link */
+a:hover {
+    color: #ffffff;
+  }
+
+/* selected link */
+a:active {
+    color: rgba(227, 170, 91, 0.797);
+  }
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.copy{
+    color: #FAF8F1;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+span{
+    background-color: #f7e662;
+}
+
+.parrafoTextA{
+   width: 70%;
+   margin: auto;
+    
+
+}
+ 
+hr{
+    border: dotted #C58940 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+
+}
+.imagen1{
+    width: 18%;
+    float: left;
+    margin-right: 20px;
+}
+
+.imagen2{
+    width: 18%;
+    float: right;
+    margin-right: 20px;
+}
+
+.perfil{
+    width: 15%;
+
+}
+
+.bottom{
+    background-color: #E5BA73;
+    padding: 50px 0 20px;
+
+}
+
+a{
+    color: #995400;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.btn {
+	box-shadow:inset 1px 0px 4px -19px #e0d479;
+	background:linear-gradient(to bottom, #ffe76e 5%, #ffa30f 100%);
+	background-color:#ffe76e;
+	border-radius:13px;
+	border:3px solid #f2a229;
+	display:inline-block;
+	cursor:pointer;
+	color:#121212;
+
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 17px;
+	text-decoration:none;
+	text-shadow:0px 0px 25px #ffee66;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #ffa30f 5%, #ffe76e 100%);
+	background-color:#ffa30f;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+    
+}
+/*Block, ocupan toda el ancho de la pagina web, como p, h1, forms,
+  span = Elemento de visualizacion en linea son como el div, solo funciona con css
+  Inline, como spans, images, anchors, que solo ocupan el espacio que necesitan y no toda la pantalla. 
+  no se les puede canvuar el ancho 
+  inline.block, combina ambos 
+  None= acaba con el elemento, lo elimina del sitio web
+  visibility, hidden hace que no se vea pero mantenga su posicion
+  Sincss ya se tienen diseños por defecto
+  El orden del html determina que se renderiza primero 
+  Hay eje z, aunque no se vea 
+  Position, Static, relative, absolute, fixed
+
+  Static, seguir la regla del HTML y obtener esa posicion
+  Relative, empujado tantos pixeles desde la izq, derecha, arriba o abajo (top, bottom, left and right)
+  solo mueve el elemento que se desea, las orras no cambian y solo cambia con respecto a la posicion estatica 
+  Absolute, se posiciona el elemento en relacion con su padre, normalmente el padre es toda la pagina web
+  y la posicion cambia con respecto a la margen. 
+  fixed position, hace que la poosicion siempre este fija asi halla un scroll 
+
+
+  */
+
+
+/*
+En en size se puede poner porcentaje, pixeles o em 1em= 16 px, se usa la unidad em tambien si se desea poner un tamaño de fuente diferente 
+La razon para usar uno u otro, es si se quiere un size estatico o dinamico, em o % el valor se hereda, asi que si el padre tiene un porcentaje o un em, este tamaño lo heredaran sus hijos. 
+Mientras que los pixeles no se heredan. 
+se usa mejor rem, este root significa que se usara ese tipo de tamaño y esto elimina los errores. 
+
+Clear= Es un antiflotador
+*/
